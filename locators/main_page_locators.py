@@ -55,7 +55,6 @@ class MainPageBurgerLocators(BaseLocators):
 
     # Идентификатор заказа
     id_order = (By.XPATH, "// h2 [@class = 'Modal_modal__title_shadow__3ikwq Modal_modal__title__2L34m text text_type_digits-large mb-8' and text() != '9999']")
-    #id_order = (By.XPATH, "//h2[contains(@class, 'Modal_modal__title') and contains(@class, 'text_type_digits-large')]")
 
     # Кнопка Х на всплывающем окне с номером заказа
     button_x_popup_window = (By.XPATH, "//button [@class = 'Modal_modal__close_modified__3V5XS Modal_modal__close__TnseK']")
