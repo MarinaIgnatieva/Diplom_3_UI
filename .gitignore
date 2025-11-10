@@ -1,0 +1,6 @@
+__pycache__
+.idea
+allure_results
+bin
+lib
+pyvenv.cfg
